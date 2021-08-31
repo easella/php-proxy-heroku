@@ -48,7 +48,7 @@ html body {
 <body>
 
 
-<div style="align-items:center;" id="container">
+<div  style="align-items:center;text-align:center;" id="container">
 
 	<div style="text-align:center;">
 		<h1 style="color:blue;">PHP-Proxy</h1>
@@ -62,13 +62,13 @@ html body {
 	
 	<?php } ?>
 	
-	<div id="frm">
+	<div style="text-align:center;align-items:center;" id="frm">
 	
 	<!-- I wouldn't touch this part -->
 	
 		<form action="index.php" method="post" style="margin-bottom:0;">
 			<input  class="form-control" name="url" type="text" style="width:400px;text-align:center;" autocomplete="off" placeholder="http://" />
-			<input type="submit" class="btn btn-primary" value="Go" />
+			<input type="submit" class="btn btn-danger" value="Go" />
 		</form>
 		
 		<script type="text/javascript">
