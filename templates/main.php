@@ -67,7 +67,7 @@ html body {
 	<!-- I wouldn't touch this part -->
 	
 		<form action="index.php" method="post" style="margin-bottom:0;">
-			<input  class="form-control" name="url" type="text" style="width:400px;text-align:center;" autocomplete="off" placeholder="http://" />
+			<input  class="form-control" name="url" type="text" style="width:400px;text-align:center;margin-left:35px;" autocomplete="off" placeholder="http://" />
 			<input type="submit" class="btn btn-danger" value="Go" />
 		</form>
 		
