@@ -6,7 +6,7 @@
 
 <meta name="generator" content="php-proxy.com">
 <meta name="version" content="<?=$version;?>">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 <style type="text/css">
 html body {
 	font-family: Arial,Helvetica,sans-serif;
@@ -48,7 +48,7 @@ html body {
 <body>
 
 
-<div id="container">
+<div style="align-items:center;" id="container">
 
 	<div style="text-align:center;">
 		<h1 style="color:blue;">PHP-Proxy</h1>
@@ -67,8 +67,8 @@ html body {
 	<!-- I wouldn't touch this part -->
 	
 		<form action="index.php" method="post" style="margin-bottom:0;">
-			<input name="url" type="text" style="width:400px;" autocomplete="off" placeholder="http://" />
-			<input type="submit" value="Go" />
+			<input  class="form-control" name="url" type="text" style="width:400px;text-align:center;" autocomplete="off" placeholder="http://" />
+			<input type="submit" class="btn btn-primary" value="Go" />
 		</form>
 		
 		<script type="text/javascript">
